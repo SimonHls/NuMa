@@ -1,3 +1,8 @@
 # 12334
 
-Die Mitschrift ergänzt wenn überhaupt geringfügig die Vorlesungsunterlagen.
+## Relevante Paragraphen
+
+|Paragraph|Link|Beschreibung|
+|---|---|---|
+|§§ 3, 4 MarkenG||Schutz von Marken durch Eintragungbzw. Vekehrgeltung bei Benutzung|
+||||
