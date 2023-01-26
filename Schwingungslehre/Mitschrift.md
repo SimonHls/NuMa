@@ -237,3 +237,51 @@ Nur bei Gleiten auf trockenen Kontaktflächen.
 #### **Beispiele für einfache schwingende Systeme**
 
 ![Beispiel gedämpfte / ungedämpfte Schwingung](G/GF15.jpeg)
+
+## 3. Beschreibung von Schwingungen
+
+Der Begriff Schwingungen ist nicht allgemein gebräuchlich , streng definiert. Es werden sowohl periodische Schwingungen eines Pendels als auch Schwingungen des Bodens bei einem Erdbeben als Schwingung bezeichnet.  
+Einteilung nach dem zeitlichen Verlauf nach DIN1311
+
+![Diagramm Schwingungsarten](G/GF17.jpeg)
+
+|Schwingungsart|Beschreibung|
+|---|---|
+|Stochastische Schwingungen|Zufällig, regellos|
+|Deterministische Schwingungen|eindeutig beschreibbar|
+|Periodische Schwingungen|sich regelmäßig wiederholend|
+|Harmonische Schwingungen|durch sin, cos, etc. beschreibbar|
+|Modulierte Schwingungen|überlagerte harmonische Schwingungen|
+
+=> Schwingungen sind damit mehr oder weniger zeitbhängige Vorgänge, die durch eine Zustandsgröße, z.B. $x = x(t), \phi = \phi(t)$ beschreibbar sind.  
+
+Periodische Schwingung: $x(t+T) = (t)$ mit $T$: Schwingungsdauer / Periode  
+Frequenz: $f=\frac{1}{T}$  
+
+**Unterscheidung nach Art der Bewegungsgleichung:**
+
+|Linear|Nicht-Linear|
+|---|---|
+|-> Von $x$/$\dot{x}$ abhängige Terme linear|-> Gleichungen komplex, oft nur numerisch lösbar|
+|-> Gleichungen analytisch lösbar||
+
+**Unterscheidung nach Zahl der Schwinger**
+
+- 1 Freiheitsgrad -> z.B. Feder, Pendel => durch DGL beschreibbar
+- $n$ FG -> z.B. gekoppelte Schwinger => durch mehrere DGL beschreibbar
+- kontinuierliche Schwinger -> z.B. Balkenn Platten, Saite => "unendlich viele FG, sind durch partielle DGL beschreibbar"
+
+**Unterscheidung nach Entstehungsmechanismus**
+
+- Autonom, d.h. aus dem Schwinger selbst, z.B. Eigenschwingung, selbsterregte Schwingung (ggf. mit äußerer Energiezufuhr)
+- Heteronom, d.h. von außen bestimmt
+  - erzwungen, d.h. durch direkte äußere Einwirkung, z.B. Kraft, Weg...
+  - parametererregte Schwingung, d.h. durch Änderung von Systemparametern, z.B. Schaukel, bei der die Pendellänge geändert wird.
+
+## Übungsaufgaben
+
+### Aufgabe 4.1
+
+Eine Masse $m$ hängt an einer an der Decke befestigten Feder. Sie schwingt unter ihrem Eigengewicht.
+
+![Aufgabe4.1](G/GF16.jpeg)
