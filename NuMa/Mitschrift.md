@@ -8,6 +8,10 @@
 |Numerical computing with Matlab (umsonst)|https://de.mathworks.com/moler/chapters.html|
 |
 
+## Klausurrelevante Dinge
+
+Aufgabe 3 sowas in der Art kann wohl gut passieren.
+
 ## 1. Fehlerarten
 
 $x$ sei ein genauer Wert, $\bar{x}$ ein Näherungswert
@@ -18,3 +22,4 @@ $x$ sei ein genauer Wert, $\bar{x}$ ein Näherungswert
 - **Relativer Fehler**
   - Der relative Fehler ist der absolute Fehler geteilt durch den genauen Wert
   - $\frac{|x-\bar{x}|}{(x)}$
+
