@@ -278,6 +278,117 @@ Frequenz: $f=\frac{1}{T}$
   - erzwungen, d.h. durch direkte äußere Einwirkung, z.B. Kraft, Weg...
   - parametererregte Schwingung, d.h. durch Änderung von Systemparametern, z.B. Schaukel, bei der die Pendellänge geändert wird.
 
+## 4. Bewegungsgleichungen für Schwingungen
+
+**=>Siehe Kochrezept!**  
+
+![Beispielaufgabe Kap 4 1](G/GF18.jpeg)
+*Beispielaufgabe 1: Einfacher Schwinger*
+
+Weiteres Beispiel:
+
+![Beispielaufgabe Kap 4 2](G/GF19.jpeg)
+*Beispielaufgabe 2: WTF???*
+
+Hinweise/Anmerkungen:
+
+1. Nullpunkte der Koordinaten
+   - typ. so wähle, dass sie im GG=0 sind
+   - statische Kräfte (z.B. Masse und zugehörge Ruheausdehnung einer Feder) heben sich auf
+   - Müssen in DGL nicht berüchsichtigt werden
+   - genauere Betrachtung bei nicht-linearen Federn notwendig
+2. Bestimme der Kräfte
+   - i.d.R. nur Näherungsweise für kleine Auslenkungen
+   - Vorzeichen aus "positiver Auslenkung" der Koordinate / des Systems (Kraft in gleicher Richtung positiv, in entgegengesetzter Richtung negativ)
+3. Standartform
+   - DGL mit möglichst wenig / einfachen Parametern
+   - i.d.R. Vorfaktor "1" mit Trägheitsterm
+   - "rechte" Seite - äußere Einflüsse, "linke" - inneres Systemverhalten
+
+... zurück zum Anfangsbeispiel:
+
+DGL:
+$$m\ddot{x}+cx = 0$$
+
+Lösung:
+$$\ddot{x}=-\frac{c}{m}x$$
+
+=> Gesucht ist eine Funktion $x=x(t)$, bei der sich die 2. Ableitung nur durch einen Konstanten Faktor ($-\frac{c}{m}$) von der Funktion selbst unterscheidet.
+
+=> Lösungsansatz: cos- / sin-Funktionen
+
+Ansatz:
+
+$$x(t) = a*cos(\omega t)+b*sin(\omega t)$$
+Ableiten:
+$$\dot{x}(t) = - a*\omega *sin(\omega t) + b * \omega *cos( \omega t)$$
+$$\ddot x(t) = -a * \omega^2 * cos(\omega t) - b * \omega ^2 * sin( \omega t)$$
+$$= (-\omega ^2)*(a*cos( \omega t) +b*sin( \omega t))$$
+
+Einsetzen in DGL:
+$$m\ddot{x}+cx = 0$$
+
+Man sieht: Wenn $(a,b)\not ={0}$ wird der linke Term nicht null, da sin und cos Phasenversetzt sind. Also muss gelten:
+$$-\omega ^2 *m + c \overset{!}{=} 0$$
+
+$\omega$ ist die Eigenkreisfrequenz des ungedämpften 1-Massen-Schwingers.  
+Allgemein gilt: $\omega = \sqrt{\frac{Steifigkeit}{Masse}}$  
+Bestimmung der Koeffizienten a,  durch Anpassen der Anfangsbedingungen
+
+z.B. $\dot{x}(t)=0=\dot{x_0}=v_0$  
+$x(t=0)=x_0$  
+=> $x(t=0)=a*cos(0)+b*sin(0)$  
+$\dot{x}(t=0)=-a\omega*sin(0)b*\omega *cos(0)=b*\omega=v_0$  
+=> $b=\frac{v_0}{\omega}$
+
+Lösung: $x(t)=x_0*cos(\omega t)+\frac{v_0}{\omega}*sin(\omega t)$ mit $\omega=\frac{\sqrt{c}}{m}$
+
+![Beschreibung einer Kurve](G/GF20.jpeg)
+
+Beispiel:
+
+![Beispielafgabe Pendel](G/GF21.jpeg)
+
+$\omega$ ist das, was vor dem Phi steht.
+
+### Erzwungene, ungedämpfte Schwingungen mit einem Freiheitsgrad
+
+Feder-Masse-Schwinger mit Gewicht:
+![Aufgabe4.1](G/GF23.jpeg)
+
+Lösung: lineare DGL 2. Ordnung inhomogen:
+$$m*\ddot{x}+c*x=m*g$$
+Links vom $=$ stehen "interne Einflüsse", rechts stehen "externe Einflüsse"
+$$\ddot{x}+\frac{c}{m}*x=g$$
+Lösung der DGL durch Überlagern:
+$$x(t)=x_h(t)+x_p(t)$$
+mit $x_h(t)$: Lsg der homogenen DGL  
+$x_p(t) = a*cos(\omega t) + b*sin(\omega t)$ und $\omega = \sqrt{\frac{c}{m}}$ 
+
+Einsetzen von 
+$x(t) = x_h(t)+x_p(t)$  
+$\ddot{x}_h(t)+\ddot{x}_p(t)$  
+in DGL =>  
+$m*\ddot{x}_p(t)+c*x_p(t)=m*g$ weil $m*\ddot{x}_h+c*c_h=0$
+
+Für die partikuläre Lösung kann z.B. ein Ansatz vom Typ der rechten Seite gewählt werden:  
+$x_p(t)=x_{stat} = konst$, da die "rechte Seite" ebenfalls konstant ist.  
+Ansatz ableiten und einsetzen: $\ddot{x}_p(t)=0$  
+=> $C*x_{stat}=m*g$  
+$\iff x_{stat}=\frac{m*g}{C}$ (*statische Auslenkung des Systems*)
+
+Allgemeine Lösung: $x(t)=a*cos)\omega t)+b*sin(\omega t)+x_{stat}$  
+Die allgemeine Lösung einer linearen homogenen DGL setzt sich aus einem Pratikular-Integral (=Lösung) der vollständigen (inhomogenen) Gleichung und der allg. Lösung der homogenen Gleichung zusammen.
+
+Anpassen an Anfangsbedingungen:
+$$x(t=0)=x_0 \rightarrow x_0 = a+x_{stat} \rightarrow a=x_0-\frac{m*g}{c}$$
+$$\dot{x}(t=0)=v_0=\dot{x}_0 \rightarrow \dot{x}_0=b*\omega \rightarrow b=\frac{\dot{x}_0}{\omega}$$
+
+Damit lautet die vollständige Lösung:
+$$x(t)=(x_0-\frac{m*g}{c})*cos(\omega t)+\frac{\dot{x}_0}{\omega}*sin(\omega t)+\frac{m*g}{c}$$
+
+![Federpendel Lagen](G/GF25.jpeg)
+
 ## Übungsaufgaben
 
 ### Aufgabe 4.1
@@ -285,3 +396,14 @@ Frequenz: $f=\frac{1}{T}$
 Eine Masse $m$ hängt an einer an der Decke befestigten Feder. Sie schwingt unter ihrem Eigengewicht.
 
 ![Aufgabe4.1](G/GF16.jpeg)
+
+### Aufgabe 5.1
+
+Der Schwinger vollführt kleine Schwingungen um die horizontale Ruhelage (Drehschwingung um A).
+
+![Aufgabe5.1](G/GF22.jpeg)
+
+### Aufgabe 5.2
+
+![Aufgabe5.2](G/GF24.jpeg)
+
