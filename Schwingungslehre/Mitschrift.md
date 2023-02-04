@@ -389,6 +389,48 @@ $$x(t)=(x_0-\frac{m*g}{c})*cos(\omega t)+\frac{\dot{x}_0}{\omega}*sin(\omega t)+
 
 ![Federpendel Lagen](G/GF25.jpeg)
 
+### Schwinger mit periodischer Kraftanregung
+
+![Schwinger mit per. Kraftanregung](G/GF26.jpeg)
+
+Lösung der DGL durh überlagern: $x(t)=x_h(t)+x_p(t)$ mit  
+$x_h(t)=a*cos(\omega t)+ b*sin(\omega t)$ *(homogene Lsg.)*
+
+...ableiten und einsetzen...
+$$\ddot{x}(t)=\ddot{x}_h(t)+\ddot{x}_p(t)$$
+$$\rightarrow m*\ddot{x}_p+C_{xp}= \^{F}*cos(\Omega t)$$
+den $m*\ddot{x}_h+c*x_h=0$
+
+Ansatz vom Typ der rechten Seite (hier "Gleichtaktansatz")
+
+$$x_p(t)=\^{x}_p*cos(\Omega t)$$
+
+d.h. es wird angenomen, dass die Masse m der äußeren Kraft $F(t)$ (im wesentlichen) folgt. Die Frage ist allerdings, mit welcher Auslenkung?  
+Ansatz ableiten und einsetzen:
+
+$$x_p(t)=\^{x}_p*cos(\Omega t)$$
+$$\dot{x}_p(t)=-\^{x}*sin(\Omega t) * \Omega$$
+$$\ddot{x}_p(t)=-\^{x}_p*cos(\Omega t)*\Omega ^2$$
+$$\rightarrow -\Omega ^2*m*\^{x}_p*cos(\Omega t)+(\^{x}_p - \^{F}) = 0$$
+$$\iff cos(\Omega t)[(-m*\Omega ^2+c)*\^{x}_p-\^{F}] = 0$$
+$$\rightarrow (-m*\Omega ^2+c)\^{x}_p=\^{F}$$
+$$\iff \^{x}_p=\frac{\^{F}}{-m*\omega^2+c}=\frac{\^{F}}{C}*\frac{1}{1-\frac{m}{c}*\Omega}$$
+$$= \frac{\^{F}}{C}*\frac{1}{1-\frac{\Omega ^2}{\omega ^2}}$$
+mit $\eta=\frac{\Omega}{\omega}$ und $\omega=\sqrt{\frac{c}{m}}$
+$$\^{x}_p=\frac{\^{F}}{C}*\frac{1}{1-\eta ^2}$$
+
+Hinweis: Gilt $\Omega \thickapprox \omega$, d.h. Eingenkreisfrequenz ungefähr gleich Erregerkreisfrequenz, folgt:  
+$$\^{x}_p \rightarrow \infin$$
+also "Zerstörung". $\Omega=\omega$ bezeichnet man als Resonanzfall.
+∏
+Gesamt Lösung:
+$$x(t)=a*cos(\omega t) + b*sin(\omega t)+\^{x}_p*cos(\Omega t)$$
+Anpassen an Anfangsbedingungen
+$$x(t=0)=x_0 \rightarrow x_0=a+\^{x}_p \rightarrow a=x_0-\^{x}_p$$
+$$\dot{x}(t=0)=v_0=\dot{x}_0=-a-\omega *sin(0)+b*\omega*cos(0)-\^{x}_p*\Omega * 0$$
+$$\Rightarrow b=\frac{\dot{X}_0}{\omega}$$
+$$x(t)=(x_0-\^{x}_p)*cos(\omega t)+\frac{\dot{x}_o}{\omega}*sin(\omega t)+\^{x}_p*cos(\Omega t)$$
+
 ## Übungsaufgaben
 
 ### Aufgabe 4.1
