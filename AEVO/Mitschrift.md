@@ -150,7 +150,7 @@ Hingehen und ein Zwischenzeugnis anfordern.
    - Fachliche Eignung:
      - Fachlich geeignet ist, wer eine abgeschlossene Ausbildung oder Studium oder langjährige Berufserfahrung hat, sowie der Nachweis von Berufs- und Arbeitspsychlogischer Kentnisse.
 
-Kommen wahrscheinlich vor (etwa 200%ig):
+**Kommen wahrscheinlich vor (etwa 200%ig):**
 
 5. Nennen sie 5 Aufgaben des Ausbildungsberaters
    1. Beratung in fragen der Ausbildung
@@ -158,10 +158,44 @@ Kommen wahrscheinlich vor (etwa 200%ig):
    3. Förderung der Ausbildung durch Angebote
    4. Zusammen mit der berufsberatung der Agentur für Arbeit und
    5. Beteilung an Maßnahmen der Nachwuchwerbung
-
 6. Nennen sie 5 Vorteile der Betriebsgebundenen Ausbildung
    1. Unmittelbarer zusammenhang mit der Arbeitswelt
    2. Erfahrungsvermittlung aus der Praxis
    3. Lernen durch praktisches Tun
    4. Aneignung von Verantwortungsbewusstsein
    5. Erlernung der Teamfähigkeit
+7. Nennen sie 5 Punkte, worin die Bedeutung der Ausbildung für den Jugendlichen liegt
+   1. Einstieg in das Berufsleben
+   2. Sicherung eines Arbeitsplatzes
+   3. Schrittweise Einführung in die Arbeitswelt
+   4. Lernen von selbstständigem handeln und arbeiten
+   5. Persönlichkeitsbildung
+8. Welche Möglichkeit haben sie, junge Menschen für die Ausbildung in ihrem Betrieb zu begeistern?
+   1. Schulverastaltungen
+   2. Betrieb in der Schule Vorstellen
+   3. Sponsoring
+   4. Zukunftstag
+   5. Tag der offenen Tür
+
+**ACHTUNG! FALLE!**
+
+Ausbildungsvertrag ist gültig, wenn beide Seiten Zusagen, nicht nur der Arbeitgeber, und bei Minderjährigen auch der gesetzliche Vertreter. Eine Zusage ist einseitig.
+
+21. Nachteile der 4-Stufen Methode
+    1. Lässt keine Fehler zu
+    2. Kreativität wird eingeschränkt
+22. Vier Kompetenzbereiche
+    1. Fachkompetenz
+    2. Methodenkompetenz
+    3. Sozialkompetenz
+    4. Persönliche Kompetenz
+
+Ablauf der Praktischen
+
+1. Erstmal vorstellen
+2. Ich habe mir aus dem Plan folgendes Thema ausgesucht
+3. Ich habe mir folgenden Azubi aus dem Betrieb gesucht. Der kann das und das
+4. Einordnen in den Kontext der Ausbildung
+5. Lernziel erklären -> Zustand, der in der Zukunft ist und durch menschliches Handeln erreicht werden soll
+6. Ich habe mich für folgende Methode entschieden. Was habe ich für einen azubi und was habe ich für ein Thema? Da das Thema Arbeitssicherheitstechnisch gefährlich ist, habe ich die 3-Stufen Methode genommen, man kann ihn nicht drauflos lassen. Falls der PA eine andere Methode vorschlägt, einfach sagen man hat das schon ausprobiert und ist mit der dargestellten Methode am besten gefahren.
+7. 
