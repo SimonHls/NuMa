@@ -449,3 +449,20 @@ Der Schwinger vollführt kleine Schwingungen um die horizontale Ruhelage (Drehsc
 
 ![Aufgabe5.2](G/GF24.jpeg)
 
+### Aufgabe 5.3
+
+![Aufgabe5.3](G/GF27.jpeg)
+
+### Aufgabe 5.4
+
+![Aufgabe5.4Aufgabe](G/GF28.jpeg)
+![Aufgabe5.4Loesung](G/GF29.jpeg)
+
+### Aufgabe 5.5
+
+![Aufgabe5.5Aufgabe](G/GF30.jpeg)
+![Aufgabe5.5Loesung](G/GF31.jpeg)
+
+### Aufgabe 5.6
+
+![Aufgabe5.5](G/GF32.jpeg)
